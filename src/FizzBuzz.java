@@ -12,7 +12,7 @@ class FizzBuzz {
 
     }
 
-    private static void fizzBuzzWhile(int i) {
+    public static void fizzBuzzWhile(int i) {
         boolean divBy3 = i % 3 == 0;
         boolean divBy5 = i % 5 == 0;
         if (divBy3) {
